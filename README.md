@@ -1,5 +1,13 @@
 # PTIP - Personal Trading Intelligence Platform
 
+[![CI](https://github.com/emailmdharoon-collab/TradeApp-Auggie/actions/workflows/ci.yml/badge.svg)](https://github.com/emailmdharoon-collab/TradeApp-Auggie/actions/workflows/ci.yml)
+[![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.50.0-FF4B4B.svg)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/license-Personal%20Use-lightgrey.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/emailmdharoon-collab/TradeApp-Auggie/graphs/commit-activity)
+[![GitHub last commit](https://img.shields.io/github/last-commit/emailmdharoon-collab/TradeApp-Auggie.svg)](https://github.com/emailmdharoon-collab/TradeApp-Auggie/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/emailmdharoon-collab/TradeApp-Auggie.svg?style=social&label=Star)](https://github.com/emailmdharoon-collab/TradeApp-Auggie)
+
 ## 🎯 Project Overview
 
 **PTIP** is a local web-based trading application designed for personal use on Windows PC, focusing on Indian stock markets (NSE, BSE, MCX). This is the **Ultra-MVP** version implementing a single **Scalping Options** strategy.
