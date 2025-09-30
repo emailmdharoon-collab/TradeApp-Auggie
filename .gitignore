@@ -1,0 +1,59 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Augment IDE Configuration
+.augment/
+
+# Web Bundles
+web-bundles/
+
+# Python Cache and Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Environment and Secrets
+.env
+*.key
+*.pem
+credentials.json
+
+# Database Files (if you want to exclude the actual database)
+# Uncomment the line below if you don't want to commit the database file
+# *.db
+
+# Logs
+*.log
+logs/
+
+# BMAD (local only)
+.bmad-core/
+.bmad-*/
+.ignore/
+
+# Setup/Summary Documentation (machine-specific)
+BMAD_AUGMENT_SETUP_SUMMARY.md
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
