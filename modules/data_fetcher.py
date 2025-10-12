@@ -87,17 +87,17 @@ class FyersDataFetcher:
             return pd.DataFrame()
         
         try:
-            # Convert dates to Unix timestamp
-            from_timestamp = int(from_date.timestamp())
-            to_timestamp = int(to_date.timestamp())
-            
+            # Convert dates to YYYY-MM-DD format (required by Fyers API)
+            from_date_str = from_date.strftime("%Y-%m-%d")
+            to_date_str = to_date.strftime("%Y-%m-%d")
+
             # Prepare data request
             data = {
                 "symbol": symbol,
                 "resolution": resolution,
-                "date_format": "1",  # Unix timestamp
-                "range_from": from_timestamp,
-                "range_to": to_timestamp,
+                "date_format": "1",  # Returns Unix timestamp in response
+                "range_from": from_date_str,
+                "range_to": to_date_str,
                 "cont_flag": "1"
             }
             
