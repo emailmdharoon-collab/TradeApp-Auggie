@@ -113,10 +113,24 @@ python modules/indicators.py
 python modules/strategy.py
 ```
 
-### Running the Application (Coming Soon)
+### Running the Dashboard ✅
 ```bash
+# Activate virtual environment
+.\venv\Scripts\Activate.ps1
+
+# Run Streamlit dashboard
 streamlit run app.py
+
+# Dashboard will open at http://localhost:8501
 ```
+
+**Dashboard Features:**
+- 📊 Interactive candlestick charts
+- 📈 Technical indicators (MA20, MA50, RSI)
+- 🎯 BUY/SELL signals visualization
+- 📅 Date range filtering
+- 📋 Signal history table
+- 💹 Real-time metrics
 
 ---
 
@@ -204,28 +218,41 @@ All configuration is managed in `config.py`:
 
 ---
 
-## 📝 Development Timeline
+## 🚀 Current Status
 
-### Week 1: Setup & Data Fetching (Days 1-7)
-- ✅ Day 1: Environment setup
-- ⏳ Day 2: Fyers authentication
-- ⏳ Day 3-4: Database setup
-- ⏳ Day 5-7: Data fetching
+**Overall Progress:** 60% Complete | **Dashboard:** ✅ LIVE at http://localhost:8501
 
-### Week 2: Indicators & Strategy (Days 8-14)
-- ⏳ Day 8-10: Technical indicators
-- ⏳ Day 11-14: Strategy implementation
+### ✅ Week 1: Setup & Data Fetching (COMPLETE)
+- ✅ Environment setup (Python 3.12, 80+ packages)
+- ✅ Fyers API authentication working
+- ✅ Database setup (SQLite, 4 tables, 3.85 MB)
+- ✅ Testing infrastructure (55 tests created)
+- ✅ Historical data: **23,250 records** (5 stocks, 88 days, 5-min candles)
+- ✅ Data quality: 100% valid (no NaN, no invalid OHLC)
+- ✅ Indicators: All 7 working (RSI, MA20/50/200, EMA, MACD, BB, Stoch, ATR)
+- ✅ Signals: **2,900+ generated** (4 BUY, 2,896 SELL)
 
-### Week 3: Dashboard (Days 15-21)
-- ⏳ Streamlit UI development
+### ✅ Week 3: Dashboard (COMPLETE - Skipped Week 2)
+- ✅ Interactive Streamlit dashboard
+- ✅ Candlestick charts with Plotly
+- ✅ Technical indicators overlay (MA20, MA50, RSI)
+- ✅ BUY/SELL signals visualization
+- ✅ Metrics panel (price, change, signal counts)
+- ✅ Signal history table
+- ✅ Date range filtering
+- ✅ Stock selector (5 stocks)
 
-### Week 4: Backtesting (Days 22-28)
-- ⏳ Backtest engine
-- ⏳ Performance metrics
+### ⏳ Week 4: Backtesting (NEXT)
+- [ ] Backtest engine implementation
+- [ ] P&L calculation
+- [ ] Win rate and performance metrics
+- [ ] Strategy optimization
 
-### Week 5-6: Testing & Refinement (Days 29-42)
-- ⏳ Testing and optimization
-- ⏳ Documentation
+### ⏳ Week 5-6: Testing & Refinement
+- [ ] Strategy parameter tuning
+- [ ] Dashboard enhancements
+- [ ] Error handling improvements
+- [ ] Final testing and documentation
 
 ---
 
@@ -249,14 +276,29 @@ All configuration is managed in `config.py`:
 
 ---
 
-## 📚 Next Steps
+## 📚 Next Steps (Choose One)
 
-1. ✅ Complete Day 1: Environment Setup
-2. ⏳ Day 2: Configure Fyers API credentials
-3. ⏳ Day 3: Test database operations
-4. ⏳ Day 4: Fetch historical data
-5. ⏳ Day 5: Implement strategy
-6. ⏳ Day 6: Build dashboard
+### Option 1: Strategy Tuning (Recommended)
+Use the dashboard to visually tune strategy parameters:
+- Adjust RSI thresholds (currently 30/70)
+- Test different MA periods
+- Add more confirmation signals
+- **Estimated Time:** 1-2 hours
+
+### Option 2: Backtesting (Week 4)
+Build backtesting engine to calculate P&L:
+- Simulate trades based on signals
+- Calculate win rate, profit/loss
+- Optimize parameters
+- **Estimated Time:** 4-6 hours
+
+### Option 3: Dashboard Enhancements
+Add more features to dashboard:
+- Volume chart
+- More indicators (MACD, Bollinger Bands)
+- Multi-timeframe view
+- Export signals to CSV
+- **Estimated Time:** 2-3 hours
 
 ---
 

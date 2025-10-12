@@ -37,13 +37,28 @@ Thumbs.db
 *.pem
 credentials.json
 
-# Database Files (if you want to exclude the actual database)
-# Uncomment the line below if you don't want to commit the database file
-# *.db
+# Database Files
+data/*.db
+*.db
 
 # Logs
 *.log
 logs/
+
+# Fyers API Token (sensitive)
+fyers_access_token.txt
+
+# Streamlit Configuration
+.streamlit/
+
+# Test Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
 
 # BMAD (local only)
 .bmad-core/
