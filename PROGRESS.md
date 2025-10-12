@@ -74,13 +74,16 @@
 
 ---
 
-## Week 3: Streamlit Dashboard (Days 15-21)
-- [ ] Create basic app.py
-- [ ] Add stock selector
-- [ ] Display price charts
-- [ ] Show indicators
-- [ ] Display signals
-- [ ] Add metrics
+## Week 3: Streamlit Dashboard ✅ (Completed 2025-10-12)
+- [x] Create app.py with Streamlit
+- [x] Add stock selector dropdown (5 stocks)
+- [x] Display candlestick price charts
+- [x] Show indicators (MA20, MA50, RSI)
+- [x] Display BUY/SELL signals on chart
+- [x] Add metrics dashboard (price, signals, change)
+- [x] Add date range filter
+- [x] Add signal history table
+- [x] Install plotly for interactive charts
 
 ---
 
@@ -106,9 +109,9 @@
 ---
 
 ## Current Status
-**Current Day:** Day 7 (Week 1 Complete!) → Starting Dashboard
-**Current Phase:** Dashboard Development (Week 3)
-**Completion:** 45% (Week 1 ✅ | Skipping Week 2 → Week 3)
+**Current Day:** Week 3 Complete! (Dashboard Working!)
+**Current Phase:** Dashboard Live & Running
+**Completion:** 60% (Week 1 ✅ | Week 2 Skipped | Week 3 ✅)
 
 ---
 
