@@ -319,4 +319,22 @@ fyers.connect()
    - Real-time P&L monitoring
    - Stop-loss order management
 
+####Symbol Master Json
+You can get all the latest symbols of all the exchanges from the symbol master json files
+
+NSE – Currency Derivatives:
+https://public.fyers.in/sym_details/NSE_CD_sym_master.json
+NSE – Equity Derivatives:
+https://public.fyers.in/sym_details/NSE_FO_sym_master.json
+NSE – Commodity:
+https://public.fyers.in/sym_details/NSE_COM_sym_master.json
+NSE – Capital Market:
+https://public.fyers.in/sym_details/NSE_CM_sym_master.json
+BSE – Capital Market:
+https://public.fyers.in/sym_details/BSE_CM_sym_master.json
+BSE - Equity Derivatives:
+https://public.fyers.in/sym_details/BSE_FO_sym_master.json
+MCX - Commodity:
+https://public.fyers.in/sym_details/MCX_COM_sym_master.json
+
 This guide provides comprehensive information for AI agents to effectively use the Fyers API V3 for authentication, market data access, and trading operations across all supported instruments including stocks, F&O, commodities, and currency derivatives.
